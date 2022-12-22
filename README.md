@@ -23,7 +23,7 @@ Git must be installed on you machine.
 ### Setup
 
 Clone this repository by using the command line :
-`git clone https://github.com/tanveerisonline/leaderboard.git`
+`git clone https://github.com/asifaminisonline/leaderboard.git`
 
 ### Install
 
@@ -33,7 +33,7 @@ use [npm install] to install dependencies
 
 👤 **Author1**
 
-- GitHub: [@tanveerisonline](https://github.com/tanveerisonline)
+- GitHub: [@asifaminisonline](https://github.com/asifaminisonline)
 
 ## 🤝 Contributing
 
