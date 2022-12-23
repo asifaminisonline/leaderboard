@@ -26,7 +26,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [TODO LIST] <a name="about-project"></a>
+# 📖 [Leader Board App] <a name="about-project"></a>
 
 > This project is a Leaderboard app. In this project you can save your Name and scores.
 > This application calls an Api to fetch data. which is created using pure Html5, Css3, ES6 and Webpack 5.
