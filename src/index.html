@@ -10,20 +10,20 @@
 <body>
   <h1>Leaderboard</h1>
   <div class="container">
-    <div class="left-side">
+    <div class="left">
       <div id="recent-score"><h2>Recent score</h2>
-        <button class="refreshing" onclick="refresh()">Refresh</button>
+        <button class="refreshing" type="submit" id="refresh">Refresh</button>
       </div>
       
       <div id="leaderboard">
       </div>
     </div>
-    <div class="right-side">
+    <div class="right">
       <h2>Add your score</h2>
-      <form>
-        <input type="text" id="name" name="name" placeholder="your name"><br><br>
-        <input type="number" id="score" name="score" placeholder="your score"><br><br>
-        <button type="submit" class="submit-btn">Submit</button>
+      <form id="input-form">
+        <input type="text" id="inputName" required name="name" placeholder="your name"><br><br>
+        <input type="number" required id="inputScore" name="score" placeholder="your score"><br><br>
+        <button type="submit" class="submit-btn" id="form-submit">Submit</button>
       </form> 
     </div>
       
