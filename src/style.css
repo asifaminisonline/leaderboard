@@ -6,7 +6,7 @@ body {
   padding: 10px;
   margin: 10px;
   border: 3px solid rgb(179, 178, 178);
-  min-height: 350px;
+  min-height: 400px;
 }
 
 h2 {
@@ -18,22 +18,27 @@ h3 {
 }
 
 #leaderboard div {
-  margin: 8px 0;
-  font-size: 1.2rem;
+  margin: 8px 5px;
+  font-size: 1.5rem;
 }
 
-#leaderboard div:nth-child(odd) {
+#leaderboard,
+.change-style:nth-child(odd) {
   background-color: #f2f2f2;
+  list-style: none;
+  font-size: 1.4rem;
 }
 
-#leaderboard div:nth-child(even) {
+#leaderboard,
+.change-style:nth-child(even) {
   background-color: #fff;
+  list-style: none;
+  font-size: 1.4rem;
 }
 
 h1 {
   text-align: left;
   font-size: 3rem;
-  margin-top: 30px;
 }
 
 .container {
@@ -41,14 +46,14 @@ h1 {
   justify-content: space-around;
 }
 
-.left-side {
+.left {
   text-align: left;
   width: 40%;
 }
 
-.right-side {
+.right {
   margin-top: 10px;
-  width: 25%;
+  width: 20%;
   text-align: left;
 }
 
@@ -73,8 +78,8 @@ input {
 }
 
 .submit-btn {
-  font-size: 0.8rem;
+  font-size: 1rem;
   width: 100px;
   float: right;
-  margin-right: 17px;
+  margin-right: -48px;
 }
