@@ -9,6 +9,7 @@
     "dev": "webpack serve",
     "deploy": "gh-pages -d dist"
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
